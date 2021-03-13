@@ -136,19 +136,6 @@ while True:
     mouse_pos = pg.mouse.get_pos()
     
     # DRAW HERE
-    #pg.draw.circle(
-    #   surface, pg.Color('blue'), mouse_pos, 50)
-    
-    # draw walls ;)
-#   pg.draw.line(surface, pg.Color('white'), 
-#       (0, 0), (W, 0), 5)
-#   pg.draw.line(surface, pg.Color('white'), 
-#       (W, 0), (W, H), 5)
-#   pg.draw.line(surface, pg.Color('white'), 
-#       (W, H), (0, H), 5)
-#   pg.draw.line(surface, pg.Color('white'), 
-#       (0, H), (0, 0), 5)
-    
     for wall in walls:
         wall.draw()
     
