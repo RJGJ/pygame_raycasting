@@ -148,3 +148,5 @@ while True:
         True, pg.Color('red'))
     surface.blit(fps, (50, 50))
     pg.display.update()
+
+quit()
